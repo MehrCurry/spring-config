@@ -9,4 +9,4 @@ eureka:
   client:
     enabled: true
     serviceUrl:
-      defaultZone: http://registry:8761/eureka/
+      defaultZone: http://admin:admin123@registry:8761/eureka/
