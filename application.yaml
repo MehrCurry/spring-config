@@ -1,8 +1,8 @@
 spring:
   boot:
     admin:
-      url: http://springbootadmin:8188
       client:
+        enable: false
         prefer-ip: true
         
 eureka:
