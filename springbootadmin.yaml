@@ -2,5 +2,5 @@ eureka:
   instance:
     leaseRenewalIntervalInSeconds: 10
   client:
-    enabled: enable
+    enabled: true
     registryFetchIntervalSeconds: 5
