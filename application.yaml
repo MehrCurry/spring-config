@@ -10,3 +10,8 @@ eureka:
     enabled: true
     serviceUrl:
       defaultZone: http://admin:admin123@registry:8761/eureka/
+management:
+  endpoints:
+    web:
+      exposure:
+        include: *
