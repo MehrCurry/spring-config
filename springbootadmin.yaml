@@ -4,3 +4,7 @@ eureka:
   client:
     enabled: true
     registryFetchIntervalSeconds: 5
+spring:
+  boot:
+    admin:
+      auto-deregistration: true
